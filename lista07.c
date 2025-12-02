@@ -14,7 +14,7 @@ void main(){
     printf("\n=============");
 
     for(i=0; i<=10; i++){
-        printf("\n %d X %2d = %4d", n, i, (n * i));
+        printf("\n %d + %2d = %4d", n, i, (n + i));
     }
 
     printf("\n=============\n\n\n");

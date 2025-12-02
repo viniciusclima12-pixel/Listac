@@ -14,7 +14,7 @@ int main (){
     printf("Digite o terceiro numero: ");
     scanf(" %d", &n3);
     soma = n1 + n2 + n3;
-    printf("A soma dos numeros %d , %d, %d = %d", n1, n2, n3, soma);
+    printf("A soma dos numeros %d, %d, %d = %d", n1, n2, n3, soma);
 
 
    

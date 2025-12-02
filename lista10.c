@@ -13,14 +13,13 @@ int main (){
     printf("Digite a idade da segunda pessoa: ");
     scanf(" %d", &idade2);
 
-    if(idade1 > idade2){
-        printf("A primeira pessoa é mais velha, voce tem %d anos.", idade1);
-    }else if(idade2 > idade1){
-        printf("A segunda pessoa é mais velha, voce tem %d anos.", idade2);
-    }else{
-        printf("As duas pessoas tem a mesma idade, %d anos.", idade1, idade2);
-
-
+ if(idade1 > idade2){
+    printf("A primeira pessoa é mais velha voce tem %d anos", idade1);
+ }else if(idade2 > idade1){
+    printf("A segunda pessoa é mais velha voce tem %d anos", idade2);
+ }else{
+    printf("As duas pessoas tem a mesma idade %d anos.", idade1);
+}
 
     
     system("pause");

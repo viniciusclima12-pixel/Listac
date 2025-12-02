@@ -17,7 +17,7 @@ int main (){
     printf("A area do retangulo = %.2f", area);
 
 
-
+    
 
 
     
