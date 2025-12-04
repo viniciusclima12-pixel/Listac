@@ -14,7 +14,7 @@ int main (){
     printf("Digite o preco do produto: ");
     scanf(" %f", &preco);
     precoFinal = preco - (preco * desconto);
-    printf("O preco com desconto =  %f", precoFinal);
+    printf("O preco com desconto =  %.2f", precoFinal);
 
 
 
@@ -23,4 +23,5 @@ int main (){
     
     system("pause");
     return 0;
+
 }
